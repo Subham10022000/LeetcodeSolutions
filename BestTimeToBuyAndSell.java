@@ -13,9 +13,16 @@ public class BestTimeToBuyAndSell {
         return profit;
     }
     public static void main(String[] args){
-        int arr[]={7,1,5,4,6,2};
+        Scanner sc = new Scanner(System.in);
+        System.out.println("num of elements:-");
+        int n=sc.nextInt();
+        int i ;
+        int arr[]= new int[n];
+        for( i=0;i<n;i++){
+             arr[i]=sc.nextInt();
+        }
+
         BestTimeToBuyAndSell b1 = new BestTimeToBuyAndSell();
-       System.out.println( b1.maxProfit(arr));
+       System.out.println( "max val of element:-"+" "+b1.maxProfit(arr));
     }
 }
-
