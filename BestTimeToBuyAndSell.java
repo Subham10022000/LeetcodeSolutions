@@ -1,3 +1,7 @@
+package org.Leetcode;
+
+import java.util.Scanner;
+
 public class BestTimeToBuyAndSell {
     public int maxProfit(int[] prices) {
         int left = 0;
@@ -19,6 +23,7 @@ public class BestTimeToBuyAndSell {
         int i ;
         int arr[]= new int[n];
         for( i=0;i<n;i++){
+            if(sc.hasNext())
              arr[i]=sc.nextInt();
         }
 

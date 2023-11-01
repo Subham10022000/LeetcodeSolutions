@@ -1,3 +1,5 @@
+package org.Leetcode;
+
 class MaximizeConfusionOfAnExam {
     public int maxConsecutiveAnswers(String answerKey, int k) {
         char [] arr = answerKey.toCharArray();
@@ -40,4 +42,3 @@ class MaximizeConfusionOfAnExam {
         return ans;
     }
 }
-

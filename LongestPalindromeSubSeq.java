@@ -1,7 +1,7 @@
-package org.example;
+package org.Leetcode;
 
 public class LongestPalindromeSubSeq {
-    // Java Solution
+    // Java Solution using Dynamic programming
 
 
 
@@ -80,7 +80,7 @@ public class LongestPalindromeSubSeq {
         // Driver code
         public static void main(String[] args)
         {
-            String str = "forgeeksskeegfor";
+            String str = "geeksskeeg";
             System.out.println("Length is: " + longestPalSubstr(str));
         }
 

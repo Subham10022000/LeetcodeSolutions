@@ -1,4 +1,4 @@
-package org.example;
+package org.Leetcode;
 
 // Selection sort in Java
 

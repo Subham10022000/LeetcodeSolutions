@@ -1,3 +1,5 @@
+package org.Leetcode;
+
 class MoveZeroes {
     public void moveZeroes(int[] nums) {
         int a=0;

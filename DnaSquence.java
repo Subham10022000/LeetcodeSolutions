@@ -1,4 +1,4 @@
-package org.example;
+package org.Leetcode;
 
 import java.util.ArrayList;
 import java.util.HashMap;

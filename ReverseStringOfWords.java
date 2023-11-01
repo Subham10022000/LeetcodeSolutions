@@ -1,4 +1,4 @@
-package org.example;
+package org.Leetcode;
 
 public class ReverseStringOfWords {
     public static void main(String[] args){
